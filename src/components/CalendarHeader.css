@@ -1,0 +1,121 @@
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    gap: 10px;
+  }
+  
+  .calendar-header h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .calendar-header button {
+    background-color: #e0e7ff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    color: #4f46e5;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-right: 8px;
+  }
+  
+  .calendar-header button:hover {
+    background-color: #c7d2fe;
+    transform: scale(1.05);
+  }
+  
+  .btn-today {
+    background-color: #16a34a;
+    color: white;
+  }
+  
+  .btn-today:hover {
+    background-color: #15803d;
+  }
+  
+  /* Month-Year Dropdown */
+  .month-year {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #4f46e5;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .month-year button {
+    background: none;
+    border: none;
+    font-size: inherit;
+    font-weight: inherit;
+    cursor: pointer;
+    color: #4f46e5;
+  }
+  
+  /* Dropdown */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-toggle {
+    background: none;
+    border: none;
+    color: #4f46e5;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: color 0.2s;
+  }
+  
+  .dropdown-toggle:hover {
+    color: #1d4ed8;
+  }
+  
+  .arrow {
+    font-size: 12px;
+    transition: transform 0.2s ease;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    background: white;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+    padding: 8px 0;
+    z-index: 50;
+    min-width: 160px;
+    display: flex;
+    flex-direction: column;
+    max-height: 240px;
+    overflow-y: auto;
+  }
+  
+  .dropdown-menu button {
+    background: none;
+    border: none;
+    padding: 10px 16px;
+    text-align: left;
+    font-size: 15px;
+    color: #374151;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+  
+  .dropdown-menu button:hover {
+    background-color: #f3f4f6;
+    color: #1d4ed8;
+  }
+  

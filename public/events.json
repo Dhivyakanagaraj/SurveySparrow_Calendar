@@ -1,0 +1,33 @@
+[
+    {
+      "title": "Team Sync",
+      "date": "2025-06-24",
+      "time": "10:00",
+      "duration": "1h"
+    },
+    {
+      "title": "Design Review",
+      "date": "2025-06-24",
+      "time": "14:00",
+      "duration": "30m"
+    },
+    {
+      "title": "Frontend Labs Deadline",
+      "date": "2025-06-25",
+      "time": "12:00",
+      "duration": "All Day"
+    },
+    {
+        "title": "Frontend Labs Deadline",
+        "date": "2025-05-25",
+        "time": "12:00",
+        "duration": "All Day"
+      },
+      {
+        "title": "Backend Labs Deadline",
+        "date": "2025-05-25",
+        "time": "12:00",
+        "duration": "All Day"
+      }
+  ]
+  
